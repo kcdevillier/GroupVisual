@@ -9,9 +9,9 @@ var svg = d3.select("#chart3")
 
 svg.append('svg:a')
     .classed('img', true)
-    .attr('xlink:href', 'static/html/plots1.html') // can also add svg file here
+    .attr('xlink:href', 'https://kcdevillier.github.io/static/html/plots1.html') // can also add svg file here
     .append('image')
-    .attr('xlink:href', 'static/images/plot1.png')
+    .attr('xlink:href', 'https://kcdevillier.github.io/static/images/plot1.png')
     .attr('x', 0)
     .attr('y', 0)
     .attr('width', 200)
@@ -26,9 +26,9 @@ function optionChanged(value) {
     if (value === 'html1') {
         svg.append('svg:a')
             .classed('img', true)
-            .attr('xlink:href', 'static/html/plots1.html') // can also add svg file here
+            .attr('xlink:href', 'https://kcdevillier.github.io/static/html/plots1.html') // can also add svg file here
             .append('image')
-            .attr('xlink:href', 'static/images/plot1.png')
+            .attr('xlink:href', 'https://kcdevillier.github.io/static/images/plot1.png')
             .attr('x', 0)
             .attr('y', 0)
             .attr('width', 200)
@@ -38,9 +38,9 @@ function optionChanged(value) {
     } else if (value === 'html2') {
         svg.append('svg:a')
             .classed('img', true)
-            .attr('xlink:href', 'static/html/plot2.html') // can also add svg file here
+            .attr('xlink:href', 'https://kcdevillier.github.io/static/html/plot2.html') // can also add svg file here
             .append('image')
-            .attr('xlink:href', 'static/images/plot2.png')
+            .attr('xlink:href', 'https://kcdevillier.github.io/static/images/plot2.png')
             .attr('x', 0)
             .attr('y', 0)
             .attr('width', 200)
@@ -49,7 +49,7 @@ function optionChanged(value) {
     } else if (value === 'html3') {
         svg.append('svg:a')
             .classed('img', true)
-            .attr('xlink:href', 'static/html/plots3.html') // can also add svg file here
+            .attr('xlink:href', 'https://kcdevillier.github.io/static/html/plots3.html') // can also add svg file here
             .append('image')
             .attr('xlink:href', 'static/images/plots3.png')
             .attr('x', 0)
