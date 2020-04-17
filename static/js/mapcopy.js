@@ -52,7 +52,7 @@ fetch(BeeData).then(function(resp) {
 
     function clickBox(feature, type) {
         var state = feature.properties.NAME
-        console.log(data['Colonies'][state])
+        //console.log(data['Colonies'][state])
         var colonies = formatNumber(data['Colonies'][state]);
         var lost = formatNumber(data['Lost Colonies'][state]);
         var added = formatNumber(data['Added Colonies'][state]);
@@ -116,7 +116,7 @@ fetch(BeeData).then(function(resp) {
 
     //access geojson and add layer
     d3.json(c).then(function(data) {
-        console.log(data)
+        //console.log(data)
         var lostColonies = L.geoJSON(data, {
             style: style,
             onEachFeature: function(feature, layer) {
@@ -154,7 +154,7 @@ fetch(BeeData).then(function(resp) {
     //return color to style based on CO2 emissions
     function getColor(value, type) {
         try {
-            console.log(type)
+            //console.log(type)
             if (type === 'lost') {
                 val = data['Lost Colonies'][value];
             } else if (type === 'added') {
