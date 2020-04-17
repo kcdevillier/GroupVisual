@@ -1,4 +1,4 @@
-BeeData = "/static/data/B_map.csv"
+BeeData = "static/data/B_map.csv"
 
 
 d3.csv(BeeData).then(function(data, err) {
