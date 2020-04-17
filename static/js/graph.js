@@ -2,7 +2,7 @@
 // The data from the JSON file is arbitrarily named importedData as the argument
 
 
-d3.json("static/data/B2019_chart.json").then(function(importedData) {
+d3.json("https://kcdevillier.github.io/GroupVisual/static/data/B2019_chart.json").then(function(importedData) {
     // console.log(Object.keys(importedData));
     // console.log(Object.values(importedData));
     // console.log(Object.entries(importedData));
@@ -11,14 +11,14 @@ d3.json("static/data/B2019_chart.json").then(function(importedData) {
         // console.log(data)
     var vvalues = []
     colonies = getValue(importedData, "Renovated Colonies", vvalues)
-    console.log(colonies, vvalues);
+   // console.log(colonies, vvalues);
 
     // Sending in what we want
     function getValue(data, kkeys) {
         var names = []
             // var vvalues = []
         Object.keys(data[kkeys]).forEach(function(element) {
-            console.log(element)
+           // console.log(element)
             names.push(element)
             vvalues.push(data[kkeys][element])
 
