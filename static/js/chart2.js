@@ -1,6 +1,6 @@
-var CO2 = "/static/data/CO2.csv"
-var GDP = "/static/data/GDP2.csv"
-country = "/static/data/Country_2014.csv"
+var CO2 = "static/data/CO2.csv"
+var GDP = "static/data/GDP2.csv"
+country = "static/data/Country_2014.csv"
 
 
 function loadDropdown() {
