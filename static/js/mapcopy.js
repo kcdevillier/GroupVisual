@@ -1,7 +1,7 @@
 //create leaflet map containing choropleth style layers for Bee data
 
-BeeData = "/static/data/B_map.json"
-c = "/static/data/state_border.geojson"
+BeeData = "static/data/B_map.json"
+c = "static/data/state_border.geojson"
 
 
 //create base tile layers
