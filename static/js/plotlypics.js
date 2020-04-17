@@ -1,6 +1,4 @@
-html1 = "/static/html/plots_html"
-html2 = "/static/htmlplots_Correlation_between_Added_Colonies_and_Lost_Colonies_2019_Q4.html"
-html3 = "/static/plots_Number_of_Colonies_in_Q1_in_all_states_across_four_years.html"
+
 
 var svg = d3.select("#chart3")
     .append("svg")
