@@ -51,7 +51,7 @@ function optionChanged(value) {
             .classed('img', true)
             .attr('xlink:href', 'https://kcdevillier.github.io/GroupVisual/static/html/plots3.html') // can also add svg file here
             .append('image')
-            .attr('xlink:href', 'static/images/plots3.png')
+            .attr('xlink:href', 'https://kcdevillier.github.io/GroupVisual/static/images/plots3.png')
             .attr('x', 0)
             .attr('y', 0)
             .attr('width', 200)
