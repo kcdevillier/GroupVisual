@@ -51,12 +51,15 @@ d3.csv(BeeData).then(function(data, err) {
     var layout = {
         title: "Total Colonies by State",
         xaxis: {
+            rangeselector: "States",
+            rangeslider: {},
             tickfont: {
                 size: 6,
                 color: 'rgb(107, 107, 107)'
             }
         },
         yaxis: {
+            range: ["Total Renovated"],
             tickfont: {
                 size: 10,
                 color: 'rgb(107, 107, 107)'
